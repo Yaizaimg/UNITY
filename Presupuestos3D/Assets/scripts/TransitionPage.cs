@@ -33,6 +33,10 @@ public class TransitionPage : MonoBehaviour {
         //Start coroutine moving left objects
         StartCoroutine(LateralScrollLeft());
 
+
+        Debug.Log(previousGameobject.name+"previous");
+        Debug.Log(prefab.name+"prefab");
+
     }
 
 
@@ -48,6 +52,9 @@ public class TransitionPage : MonoBehaviour {
         Debug.Log(previousGameobject.name + "previous");
         //Start coroutine moving right objects
         StartCoroutine(LateralScrollRight());
+
+        Debug.Log(previousGameobject.name + "previous");
+        Debug.Log(prefab.name + "prefab");
     }
 
         private IEnumerator LateralScrollLeft()

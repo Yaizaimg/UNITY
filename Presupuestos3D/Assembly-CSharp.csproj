@@ -61,6 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\AddItem.cs" />
+    <Compile Include="Assets\scripts\ChangeIcon.cs" />
     <Compile Include="Assets\scripts\ChangeScene.cs" />
     <Compile Include="Assets\scripts\ScrollList.cs" />
     <Compile Include="Assets\scripts\toggle.cs" />
