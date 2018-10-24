@@ -1,0 +1,10 @@
+
+*.tet
+*.lock
+*.ide
+*.ide-wal
+*.ide-shm
+Presupuestos3D/.vs/Presupuestos3D/DesignTimeBuild/.dtbcache
+Presupuestos3D/Library/
+Presupuestos3D/Temp/
+cache/
